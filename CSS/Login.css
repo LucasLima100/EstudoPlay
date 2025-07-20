@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main-login, .main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background: #812ad1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login, .left-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1, .left-cadastro >h1{
+    font-size: 3vw;
+    color: #fffb03;
+
+}
+.left-login-image, .left-login-image2{
+    width: 35vw;
+}
+.right-login, .right-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login, .card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #812ad1;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #3e0155 ;
+}
+.card-login >h1, .card-cadastro >h1{
+    color: #f9dc03;
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #a956f8;
+    color: #f7efc9;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #40015fc6 ;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield >label{
+    color:hsl(62, 100%, 80%) ;
+    margin-bottom: 10px;
+}
+.textfield >input::placeholder{
+    color: #f7efc9;
+}
+.btn-login, .btn-cadastro{
+    
+    width: 100%;
+    padding: 16px 0px;
+    margin-block-start:  25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2e0148;
+    background: #ebe3ba;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #f7efc9 ;
+}
+
+.nop-cadastro{
+    padding: 25px;
+    color: #fff;
+}
+.back-arrow{
+    padding: 25px;
+    color: #fff;
+}

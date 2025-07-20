@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <link rel="stylesheet" href="../../../../CSS/padrão.css">
+    <link rel="icon" href="../../../../Imagens/EP.jpeg" alt="" >
+</head>
+<body><br><br>
+    <main class="conteudo-principal">
+        <h1 class="titulo-principal">Funções</h1>
+
+        <section>
+            <h2 class="subtitulo">1. O que é uma função?</h2>
+            <p class="paragrafo">
+            <p>Por exemplo, uma função de <strong>A em B</strong> significa associar cada elemento pertencente ao conjunto A a um único elemento do conjunto B, sendo assim, um valor de A não pode estar ligado a dois valores de B.</p>
+
+    <h2>Definição de Função</h2>
+    <p>A <strong>notação para função</strong> é representada por: <strong>f: A → B</strong> (lê-se: "f de A em B").</p>
+
+    <h2>Representação das Funções</h2>
+    <p>Em uma função <strong>f: A → B</strong>, o conjunto <strong>A</strong> é chamado de <strong>domínio (D)</strong> e o conjunto <strong>B</strong> é denominado <strong>contradomínio (CD)</strong>.</p>
+
+    <ul>
+        <li>Um elemento de <strong>B</strong> relacionado a um elemento de <strong>A</strong> recebe o nome de <strong>imagem</strong> pela função.</li>
+        <li>Agrupando todas as imagens de <strong>B</strong>, obtemos o <strong>conjunto imagem</strong>, que é um subconjunto do contradomínio.</li>
+    </ul>
+
+    <h3>Exemplo:</h3>
+    <p>Considere os conjuntos:</p>
+    <ul>
+        <li><strong>A = {1, 2, 3, 4}</strong></li>
+        <li><strong>B = {1, 2, 3, 4, 5, 6, 7, 8}</strong></li>
+    </ul>
+    <p>Se a função que determina a relação entre os elementos é dada por <strong>f(x) = 2x</strong>, então:</p>
+    <ul>
+        <li>Para cada <strong>x</strong> do conjunto <strong>A</strong>, temos <strong>f(x)</strong> no conjunto <strong>B</strong>.</li>
+        <li>Assim, os valores de <strong>B</strong> relacionados aos elementos de <strong>A</strong> serão <strong>{2, 4, 6, 8}</strong>.</li>
+    </ul>
+
+    <h2>Tipos de Funções</h2>
+    <p>As funções podem ser classificadas de acordo com suas propriedades. Confira os principais tipos:</p>
+
+    <h3>Função Sobrejetora</h3>
+    <p>Na função sobrejetora, o contradomínio é igual ao conjunto imagem. Portanto, todo elemento de <strong>B</strong> é imagem de pelo menos um elemento de <strong>A</strong>.</p>
+    <p><strong>Notação:</strong> <strong>f: A → B</strong>, ocorre que <strong>Im(f) = B</strong></p>
+
+    <h3>Função Injetora</h3>
+    <p>Na função injetora, todos os elementos de <strong>A</strong> possuem correspondentes distintos em <strong>B</strong>, e nenhum dos elementos de <strong>A</strong> compartilham a mesma imagem em <strong>B</strong>.</p>
+
+    <h3>Função Bijetora</h3>
+    <p>Na função bijetora, os conjuntos apresentam o mesmo número de elementos relacionados. Essa função é simultaneamente injetora e sobrejetora.</p>
+
+    <h3>Função Inversa</h3>
+    <p>A função inversa é um tipo de função bijetora, por isso é sobrejetora e injetora ao mesmo tempo.</p>
+
+    <h3>Função Par</h3>
+    <p>Uma função é par quando <strong>f(-x) = f(x)</strong>, ou seja, a função possui a mesma imagem para <strong>x</strong> e para <strong>-x</strong>.</p>
+
+    <h3>Função Ímpar</h3>
+    <p>Uma função é ímpar quando <strong>f(-x) = -f(x)</strong>. O gráfico de uma função ímpar é simétrico em relação à origem.</p>
+
+    <h3>Função Composta</h3>
+    <p>A função composta é um tipo de função matemática que combina duas ou mais funções. Pode ser representada como:</p>
+    <ul>
+        <li><strong>fog(x) = f(g(x))</strong></li>
+        <li><strong>gof(x) = g(f(x))</strong></li>
+    </ul>
+
+    <h3>Função Modular</h3>
+    <p>A função modular associa elementos em módulos e seus números são sempre positivos.</p>
+
+    <h3>Função Afim</h3>
+    <p>A função afim, também chamada de função do 1º grau, apresenta uma taxa de crescimento e um termo constante. Sua equação é dada por:</p>
+    <p><strong>f(x) = ax + b</strong></p>
+    <ul>
+        <li><strong>a</strong>: coeficiente angular</li>
+        <li><strong>b</strong>: coeficiente linear</li>
+    </ul>
+
+    <h3>Função Linear</h3>
+    <p>A função linear é um caso particular da função afim, onde a equação é dada por:</p>
+    <p><strong>f(x) = ax</strong></p>
+    <p>Quando o coeficiente <strong>a</strong> for igual a 1, a função linear é uma função identidade.</p>
+
+    <h3>Função Quadrática</h3>
+    <p>A função quadrática é chamada de função do 2º grau e é representada por:</p>
+    <p><strong>f(x) = ax² + bx + c</strong>, sendo <strong>a ≠ 0</strong>.</p>
+    <ul>
+        <li><strong>a</strong>, <strong>b</strong> e <strong>c</strong>: coeficientes da função polinomial de grau 2.</li>
+    </ul>
+
+    <h3>Função Logarítmica</h3>
+    <p>A função logarítmica de base <strong>a</strong> é representada por:</p>
+    <p><strong>f(x) = loga(x)</strong>, sendo <strong>a > 0</strong> e <strong>a ≠ 1</strong>.</p>
+    <p>Ao invertermos a função logarítmica, obtemos uma função exponencial.</p>
+
+    <h3>Função Exponencial</h3>
+    <p>A função exponencial apresenta uma variável no expoente, com a base sendo maior que zero e diferente de 1:</p>
+    <p><strong>f(x) = ax</strong>, sendo <strong>a > 0</strong> e <strong>a ≠ 1</strong>.</p>
+
+    <h3>Função Polinomial</h3>
+    <p>A função polinomial é representada por expressões polinomiais:</p>
+    <p><strong>f(x) = an * xn + an-1 * xn-1 + ... + a2 * x² + a1 * x + a0</strong></p>
+    <ul>
+        <li><strong>an, an-1, ... , a2, a1, a0</strong>: números complexos</li>
+        <li><strong>n</strong>: número inteiro</li>
+        <li><strong>x</strong>: variável complexa</li>
+    </ul>
+
+    <h3>Funções Trigonométricas</h3>
+    <p>As funções trigonométricas estão relacionadas com as voltas no ciclo trigonométrico:</p>
+    <ul>
+        <li><strong>Função Seno</strong>: f(x) = sen(x)</li>
+        <li><strong>Função Cosseno</strong>: f(x) = cos(x)</li>
+        <li><strong>Função Tangente</strong>: f(x) = tg(x)</li>
+    </ul>
+
+    <h2>Gráfico de uma Função</h2>
+    <p>A maneira como um elemento <strong>y</strong> se relaciona com um elemento <strong>x</strong> é expressa através de um gráfico, que nos dá a ideia do comportamento da função. Cada ponto no gráfico é dado por um par ordenado de <strong>x</strong> e <strong>y</strong>, onde <strong>x</strong> é o valor de entrada e <strong>y</strong> é o resultado da relação definida pela função.</p>
+
+            
+            </p>
+            <p class="paragrafo">
+                Imagine que você tenha uma "máquina", que recebe um número como entrada (x) e retorna outro número como saída (y). Se a máquina for uma função, para cada valor de x, haverá um único valor correspondente de y. Por exemplo, a função f(x) = x + 2, transforma qualquer valor de x somando 2 a ele, ou seja, f(3) = 5.
+            </p>
+            <p class="paragrafo">
+                Em notação matemática, uma função é representada como f(x), onde "f" é o nome da função e "x" é o valor de entrada. O resultado da função é f(x) = y, ou seja, a função atribui a cada valor de "x" um único valor de "y". As funções podem ser representadas de várias formas, sendo as mais comuns as representações analíticas (equações), gráficas (curvas) e tabulares (tabelas de valores).
+            </p>
+            <p class="paragrafo">
+                <strong>Exemplo:</strong> Para a função f(x) = x², se substituirmos x por 2, obtemos f(2) = 4. Assim, para cada número inserido, a função retorna o seu quadrado.
+            </p>
+            <p class="paragrafo">
+                <a href="https://www.youtube.com/watch?v=6OkI2V-kUo4" target="_blank">Ver explicação em vídeo: O que é uma função?</a>
+            </p>
+        </section>
+
+        <section>
+            <h2 class="subtitulo">2. Elementos de uma função</h2>
+            <p class="paragrafo">
+                As funções possuem três elementos fundamentais que determinam seu comportamento: o domínio, o contradomínio e a imagem. Entender esses elementos é essencial para resolver problemas de função em vestibulares, especialmente no ENEM, onde a interpretação de funções aparece com frequência.
+            </p>
+            <ul class="lista-elementos">
+                <li><strong>Domínio:</strong> O domínio de uma função é o conjunto de todos os valores de entrada possíveis (valores de x). Esses valores são os números que podem ser substituídos na função.</li>
+                <li><strong>Contradomínio:</strong> O contradomínio é o conjunto de todos os possíveis resultados da função (valores de y). Porém, nem todos os elementos do contradomínio são necessariamente atingidos pela função.</li>
+                <li><strong>Imagem:</strong> A imagem é o conjunto dos valores de saída que são efetivamente atingidos pela função, ou seja, os resultados reais para os valores de entrada dados.</li>
+            </ul>
+            <p class="paragrafo">
+                Por exemplo, se temos a função f(x) = x² com o domínio {–3, –2, –1, 0, 1, 2, 3}, o contradomínio será o conjunto dos quadrados desses números, ou seja, {0, 1, 4, 9}. A imagem, no entanto, será o conjunto dos resultados reais atingidos pela função, que é {0, 1, 4, 9}.
+            </p>
+            <p class="paragrafo">
+                <a href="https://www.youtube.com/watch?v=KA9Od_zhFjk" target="_blank">Ver explicação em vídeo: Domínio e Imagem</a>
+            </p>
+        </section>
+
+        <section>
+            <h2 class="subtitulo">3. Tipos de funções</h2>
+            <p class="paragrafo">
+                Existem vários tipos de funções, e cada tipo tem suas próprias características e aplicações. Para vestibulares como o ENEM, é importante conhecer os principais tipos de funções e como trabalhar com eles. Vamos explorar os dois tipos mais comuns: funções do 1º grau e funções do 2º grau.
+            </p>
+
+             <h2>Função do 1º Grau (Função Linear)</h2>
+    <p>A <strong>função do 1º grau</strong>, também chamada de função <strong>linear</strong>, é uma função polinomial onde o grau da variável é 1. Ela é expressa por:</p>
+    <p><strong>f(x) = ax + b</strong></p>
+    <ul>
+        <li><strong>a</strong>: coeficiente angular, que indica a inclinação da reta.</li>
+        <li><strong>b</strong>: coeficiente linear, que determina o ponto de interseção com o eixo y.</li>
+    </ul>
+    <p>Exemplo de função do 1º grau:</p>
+    <p><strong>f(x) = 2x + 3</strong></p>
+    <p>Para esta função, quando <strong>x = 0</strong>, temos <strong>f(0) = 3</strong>, ou seja, a reta corta o eixo y no ponto (0, 3).</p>
+
+    <h3>Gráfico de uma Função do 1º Grau</h3>
+    <p>O gráfico de uma função linear é uma reta. A inclinação dessa reta é dada pelo coeficiente angular <strong>a</strong>, e o ponto de interseção com o eixo y é dado por <strong>b</strong>.</p>
+    
+    <h2>Função do 2º Grau (Função Quadrática)</h2>
+    <p>A <strong>função do 2º grau</strong>, também conhecida como <strong>função quadrática</strong>, é uma função polinomial em que o maior grau da variável é 2. Sua expressão é dada por:</p>
+    <p><strong>f(x) = ax² + bx + c</strong>, onde:</p>
+    <ul>
+        <li><strong>a</strong>, <strong>b</strong> e <strong>c</strong> são coeficientes reais e <strong>a ≠ 0</strong>.</li>
+    </ul>
+    <p>Exemplo de função do 2º grau:</p>
+    <p><strong>f(x) = x² - 4x + 3</strong></p>
+    <p>Essa função é uma parábola. O gráfico de uma função do 2º grau é sempre uma parábola, podendo ser voltada para cima ou para baixo, dependendo do valor de <strong>a</strong>.</p>
+
+    <h3>Raízes da Função Quadrática</h3>
+    <p>As raízes de uma função quadrática são os valores de <strong>x</strong> para os quais <strong>f(x) = 0</strong>. Para encontrar as raízes, usa-se a fórmula de Bhaskara:</p>
+    <p><strong>x = (-b ± √(b² - 4ac)) / 2a</strong></p>
+    <p>Exemplo:</p>
+    <ul>
+        <li>Para a função <strong>f(x) = x² - 4x + 3</strong>, temos <strong>a = 1</strong>, <strong>b = -4</strong> e <strong>c = 3</strong>.</li>
+        <li>Substituindo na fórmula de Bhaskara, obtemos:</li>
+        <p><strong>x = (-(-4) ± √((-4)² - 4 * 1 * 3)) / (2 * 1)</strong></p>
+        <p><strong>x = (4 ± √(16 - 12)) / 2</strong></p>
+        <p><strong>x = (4 ± √4) / 2</strong></p>
+        <p><strong>x = (4 ± 2) / 2</strong></p>
+        <ul>
+            <li><strong>x₁ = (4 + 2) / 2 = 6 / 2 = 3</strong></li>
+            <li><strong>x₂ = (4 - 2) / 2 = 2 / 2 = 1</strong></li>
+        </ul>
+        <p>Logo, as raízes da função são <strong>x₁ = 3</strong> e <strong>x₂ = 1</strong>.</p>
+    </ul>
+
+    <h3>Gráfico de uma Função Quadrática</h3>
+    <p>O gráfico de uma função quadrática é uma parábola. A direção da parábola depende do valor de <strong>a</strong>:</p>
+    <ul>
+        <li>Se <strong>a > 0</strong>, a parábola abre para cima.</li>
+        <li>Se <strong>a < 0</strong>, a parábola abre para baixo.</li>
+    </ul>
+    <p>O vértice da parábola é o ponto onde a função atinge seu valor máximo ou mínimo, e a equação da reta de simetria é dada por:</p>
+    <p><strong>x = -b / 2a</strong></p>
+
+    <a href="https://www.youtube.com/watch?v=tfm9kUrO5GI" target="_blank">Ver explicação em vídeo: O que é uma função 1 e 2 grau</a>
+
+    <h2>Resumo</h2>
+    <p>As funções do 1º e 2º grau são fundamentais para entender o comportamento das equações lineares e quadráticas, e seus gráficos desempenham um papel importante na visualização dessas relações.</p>
+
+    <section>
+        <h2 class="subtitulo">5. Como as funções são cobradas no ENEM</h2>
+        <p class="paragrafo">
+            No ENEM, as questões de Matemática que envolvem funções costumam ser interpretativas. O candidato precisa não apenas entender a teoria das funções, mas também saber como aplicá-las em situações do cotidiano, como vimos nos exemplos anteriores.
+        </p>
+        <p class="paragrafo">
+            É importante que você entenda como identificar a forma de uma função a partir de um gráfico ou uma situação problema e consiga interpretá-la corretamente. Questões como identificar as raízes de uma equação quadrática ou calcular o valor de uma função em um determinado ponto são comuns.
+        </p>
+        <p class="paragrafo">
+            Além disso, o ENEM também gosta de explorar a interpretação de gráficos de funções, pedindo para o candidato analisar a variação de uma variável em função de outra, como em gráficos de crescimento populacional ou de variação de temperatura ao longo do tempo.
+        </p>
+    </section>
+
+    <section>
+        <h2 class="subtitulo">6. Conclusão</h2>
+        <p class="paragrafo">
+            Estudar funções matemáticas é essencial para o sucesso no ENEM e em outros vestibulares. Saber interpretar, resolver e aplicar funções é uma habilidade que será exigida em várias questões de Matemática. 
+            Além disso, entender o papel das funções no cotidiano e nas diferentes áreas do conhecimento é fundamental para a compreensão de fenômenos naturais e sociais.
+        </p>
+        <p class="paragrafo">
+            Agora que você está mais familiarizado com as funções, que tal testar seu conhecimento com um quiz? Vamos colocar em prática tudo o que você aprendeu!
+        </p>
+        <button class="botao-quiz" onclick="window.location.href='../../../Quiz/Matemática/MatFunções.html'">Quiz</button>
+        <button class="botao-quiz" onclick="window.location.href='../../../../index.html'">Voltar</button>
+    </section>
+</main>
+</body> </html> 
