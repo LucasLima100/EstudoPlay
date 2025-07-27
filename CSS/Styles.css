@@ -13,13 +13,17 @@ padding: 20px;
 }
 
 .name {
-color: yellow;
+background: linear-gradient( 13deg, #f6ff00, rgb(166, 0, 255), #f6ff00, yellow );
+-webkit-background-clip: text;
+color: transparent;
 font-family: "Playfair Display", serif;
 text-align: center;
 width: 100%;
 min-width: 1300px;
 margin: 0 auto;
 padding: 20px;
+position: relative;
+right: 6px;
 }
 
 .BemVindo {
@@ -197,10 +201,9 @@ font-size: 20px;
 font-weight: bold;
 text-align: center;
 color: white;
-
 border-radius: 5px;
 cursor: pointer;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -210,11 +213,10 @@ display: flex;
 justify-content: center;
 gap: 30px;
 margin: 30px;
-
 }
 
-.subjectt {
 
+.subjectt {
 padding: 20px 30px;
 margin: 10px;
 font-size: 20px;
@@ -223,15 +225,26 @@ text-align: center;
 color: white;
 border-radius: 5px;
 cursor: pointer;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-
-.subject, .subjectt:hover {
+.subject:hover{
 transform: scale(1.1); 
 box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
 }
+
+
+.subjectt:hover {
+transform: scale(1.1); 
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.subjectt:hover {
+background-color: gray;
+}
+
+
 
 .subject-link {
 text-decoration: none;
