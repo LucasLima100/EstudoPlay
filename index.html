@@ -104,11 +104,44 @@
     <section class="news">
         <h2>Notícias</h2><br><br>
 
-      <div id="container">
+      <div class="slider">
 
-<img id="imgs" src="Imagens/img.jpeg" alt="Carrossel" style="height: 600px; width: 600px; cursor: pointer; border-radius: 20px; transform: scale(0.80);">
+    <div class="slides">
+        
+        <input type="radio" name="radio-btn" id="radio1" checked>
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
 
-      </div><br><br><br>
+        
+        <div class="slide first">
+            <img src="Imagens/img.jpeg" width="350" height="350" style="border-radius: 5px;">
+        </div>
+
+        <div class="slide">
+            <img src="Imagens/img2.jpeg" width="350" height="350" style="border-radius: 5px;">
+        </div>
+
+        <div class="slide">
+            <img src="Imagens/img3.jpeg" width="350" height="350" style="border-radius: 5px;">
+        </div>
+
+        
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+    </div>
+
+    
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+    </div>
+
+</div><br><br><br>
+
 
      <div>
 
@@ -181,6 +214,6 @@
 
             <p>&copy 2025 EstudoPlay. Todos os direitos reservados.</p>
         </footer>
-        <p style="color: #f9f9ff; left: 46%; top: 20px; position: relative; margin: 0 auto; width: 130px;">Versão: 0.36.2</p>
+        <p style="color: #f9f9ff; left: 46%; top: 20px; position: relative; margin: 0 auto; width: 130px;">Versão: 0.37.5</p>
     </body>
 </html>

@@ -6,24 +6,20 @@ function Menu() {
     
     }
 
-    let imagems = ["Imagens/img2.jpeg", "Imagens/img3.jpeg", "Imagens/img.jpeg"];
-    let index = 0;
-    let intervalo;
+let count = 1;
 
-function iniciarCarrossel() {
+document.getElementById("radio1").checked = true
 
-intervalo = setInterval(() => {
+setInterval(function(){
+    nextImage();
+}, 5000)
 
-index = (index + 1) % imagems.length;
-document.getElementById("imgs").src = imagems[index];
-}, 2000);
- }
+function nextImage(){
+    count++;
+    if(count>3){
+        count = 1
+    }
 
- iniciarCarrossel();
+document.getElementById("radio"+count).checked = true
 
- document.getElementById("imgs").addEventListener("click", () => {
-    clearInterval(intervalo);
-    setTimeout(() => {
-        iniciarCarrossel();
-    }, 2500)
- });
+}

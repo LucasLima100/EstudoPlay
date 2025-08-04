@@ -13,7 +13,7 @@ padding: 20px;
 }
 
 .name {
-background: linear-gradient( 13deg, #f6ff00, rgb(166, 0, 255), #f6ff00, yellow );
+background: linear-gradient( 2deg, #f6ff00, rgb(166, 0, 255), #f6ff00, yellow );
 -webkit-background-clip: text;
 color: transparent;
 font-family: "Playfair Display", serif;
@@ -256,15 +256,99 @@ position: relative;
 right: 7px;
 }
 
-#container {
+
+.slider {
+margin: 0 auto;
+align-items: center;
 display: flex;
 justify-content: center;
-align-items: center;
-height: 100hv;
+padding: 300px;
+width: 500px;
+height: 500px;
+overflow: hidden;
 background: linear-gradient(to left, #f1c40f, #6a0dad);
-border-radius: 5px;
 transform: scale(1.00);
+border-radius: 5px;
 }
+
+.slides {
+display: flex;   
+gap: 30%;
+}
+
+.slides input {
+display: none;
+}
+
+.slide {
+display: flex;
+}
+
+.navigation-manual {
+position: absolute;
+margin-top: 400px;
+display: flex;
+justify-content: center;
+
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+margin-left: -29%;
+}
+
+#radio2:checked ~ .first {
+margin-left: -93%;
+}
+
+#radio3:checked ~ .first {
+margin-left: 34%;
+}
+
+.navigation-auto {
+position: absolute;
+display: flex;
+justify-content: center;
+width: 175%;
+margin-top: 370px;
+}
+
+.navigation-auto div {
+border: 2px #fff;
+padding: 5px;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.navigation-auto div:not(:last-child) {
+margin-right: 43.2px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+background-color: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+background-color: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+background-color: white;
+}
+
 
 .vestibulares, .ves {
 display: flex;
@@ -275,11 +359,9 @@ align-items: center;
 transform: all 0.3s ease-in-out;
 }
 
+
 .ves:hover {
-
 transform: scale(1.05);
-
-
 }
 
 .tamanho {   
